@@ -1,0 +1,23 @@
+
+class Solution:
+    def largestnumber(self,nums):
+
+        largest = nums[0]
+
+        for num in nums:
+            if num>largest:
+                largest = num
+
+
+            return largest
+
+    
+nums = [23 , 10 , -87 , 0 , 55 , 42]
+
+s = Solution()
+
+print("The Largest Element of the no. is :",s.largestnumber(nums))
+    
+
+
+
